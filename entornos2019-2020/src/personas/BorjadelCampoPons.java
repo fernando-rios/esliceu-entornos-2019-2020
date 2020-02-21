@@ -1,5 +1,5 @@
 package personas;
-import comun.Persona;
+        import comun.Persona;
 
 
 public class BorjadelCampoPons extends Persona {
