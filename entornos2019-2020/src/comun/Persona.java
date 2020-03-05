@@ -11,4 +11,9 @@ public abstract class Persona {
     public String getNombre(){return nombre;}
    
     public abstract String llamame(String frase);
+    
+    public void crearConflicto(){
+    	// Este metodo lo creamos para crear un conflicto
+    }
+
 }
