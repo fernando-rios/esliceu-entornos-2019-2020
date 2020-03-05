@@ -15,5 +15,8 @@ public abstract class Persona {
     public void crearConflicto(){
     	// Este metodo lo creamos para crear un conflicto
     }
-
+    
+    public void jordi() {
+    	System.out.println("jordi");
+    }
 }
