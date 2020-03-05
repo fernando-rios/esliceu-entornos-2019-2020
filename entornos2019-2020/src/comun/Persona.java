@@ -11,4 +11,7 @@ public abstract class Persona {
     public String getNombre(){return nombre;}
    
     public abstract String llamame(String frase);
+    public void pauConflict(String input){
+        System.out.println("Potatoes are quite good for ya buddy boy.");
+    }
 }
