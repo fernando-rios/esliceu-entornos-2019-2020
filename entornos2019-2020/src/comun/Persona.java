@@ -17,6 +17,6 @@ public abstract class Persona {
     }
     
     public void jordi() {
-    	System.out.println("jordi");
+    	// jordi
     }
 }
