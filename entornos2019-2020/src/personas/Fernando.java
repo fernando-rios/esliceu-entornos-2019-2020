@@ -1,5 +1,4 @@
 package personas;
-
 import comun.Persona;
 
 public class Fernando extends Persona {
@@ -12,3 +11,4 @@ public class Fernando extends Persona {
 		return frase.replace('a', 'e');
 	}
 }
+
