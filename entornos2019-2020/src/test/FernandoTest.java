@@ -8,6 +8,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import personas.Fernando;
+
 class FernandoTest {
 
 	@BeforeAll
@@ -28,7 +30,10 @@ class FernandoTest {
 
 	@Test
 	void testLlamame() {
-		fail("Not yet implemented");
+		Fernando f=new Fernando("Fernando");
+		String respuesta=f.llamame("hola caracola");
+		String esperado="hole cerecolde";
+	    assertEquals(esperado, respuesta); 
 	}
 
 	@Test

@@ -16,7 +16,7 @@ public abstract class Persona {
         System.out.println("Potatoes are quite good for ya buddy boy.");
     }
     
-    public void crearConflicto() {
+    public void crearConflicto(){
     	// Este metodo lo creamos para crear un conflicto
     }
     
