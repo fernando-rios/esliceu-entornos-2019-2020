@@ -15,5 +15,4 @@ public class PiñanMolinaJuanfrancisco extends Persona {
 		return frase.replace('y', 'u');
 		return frase.replace('p', 'x');
 	}
-	
 }
