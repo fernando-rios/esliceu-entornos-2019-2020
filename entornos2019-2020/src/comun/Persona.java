@@ -24,4 +24,8 @@ public abstract class Persona {
     	// jordi
     }
 
+    public void juanfran() {
+	    	// juanfran
+	    }
+
 }
