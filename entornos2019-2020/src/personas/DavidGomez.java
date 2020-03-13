@@ -12,7 +12,7 @@ public class DavidGomez extends Persona {
         String FernadoMejorProfesor = "¯\\_(ツ)_/¯";
 
         StringBuilder suspendido = new StringBuilder(frase);
-        suspendido.append(FernadoMejorProfesor);
+        suspendido.append(FernadoMejorProfesor+"vaia vaia vaia");
 
 
         return suspendido.toString();
