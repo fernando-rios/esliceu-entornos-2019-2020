@@ -1,3 +1,7 @@
+package personas;
+
+import comun.Persona;
+
 public class Jordi extends Persona {
 
 	public Jordi(String name) {

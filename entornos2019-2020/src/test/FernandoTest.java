@@ -32,10 +32,10 @@ class FernandoTest {
 	void testLlamame() {
 		Fernando f=new Fernando("Fernando");
 		String respuesta=f.llamame("hola caracola");
-		String esperado="hole cerecolde";
+		String esperado="hole cerecole";
 	    assertEquals(esperado, respuesta); 
 	}
-
+	
 	@Test
 	void testFernando() {
 		fail("Not yet implemented");
