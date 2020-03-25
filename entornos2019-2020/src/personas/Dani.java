@@ -2,10 +2,10 @@ package personas;
 
 import comun.Persona;
 
-public class Jordi extends Persona {
+public class Dani extends Persona {
 
-	public Jordi(String name) {
-		super("Jordi Vanyó");
+	public Dani(String name) {
+		super("Daniel Carrillo Cardús");
 	}
 
 	public String llamame(String s) {

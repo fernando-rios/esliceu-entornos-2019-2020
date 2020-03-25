@@ -1,4 +1,5 @@
 package personas;
+import comun.Persona;
 
 public class Norberto extends Persona {
 	public Norberto(String nombre) {

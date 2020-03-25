@@ -1,4 +1,5 @@
 package personas;
+import comun.Persona;
 
 public class Carles extends Persona {
 	public Carles(String nombre) {
@@ -6,6 +7,10 @@ public class Carles extends Persona {
 	}
 
 	public String llamame(String frase) {
-		return frase.replace('a', 'e');
+		frase.replace('a', 'i');
+		frase.replace('s', 'd');
+		frase.replace('c', 'y');
+		frase.replace('e', 'o');
+		return frase;
 	}
 }
