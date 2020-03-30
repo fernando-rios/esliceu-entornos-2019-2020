@@ -1,17 +1,17 @@
 package personas;
 import comun.Persona;
 
-public class JDRodriguez extends Personas {
-	    public JDRodriguez(String nombre) {
-		        super("JDRodriguez");
-		    }
+public class JDRodriguez extends Persona {
+	public JDRodriguez(String nombre) {
+		super("Jose");
+	}
 
-		    public String llamame(String frase) {
-		        frase = frase.replace("a", "Ella");
-		        frase = frase.replace("e", "No");
-		        frase = frase.replace("i", "Te");
-		        frase = frase.replace("o", "Ama");
-		        frase = frase.replace("u", "F");
-		        return frase;
-		    }
+	public String llamame(String palabra) {
+		palabra.replace('F', 'a');
+		palabra.replace('g', 'l');
+		palabra.replace('n', 'm');
+		palabra.replace('b', 'c');
+		return palabra;
+	}
 }
+
